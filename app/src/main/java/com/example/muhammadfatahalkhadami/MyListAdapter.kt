@@ -5,7 +5,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.*
 
-class MyListAdapter(private val context: Activity, private val title: Array<String>, private val description: Array<String>, private val imgid: Array<Int>)
+class MyListAdapter(private val context: Activity, private val title: Array<String>,
+                    private val description: Array<String>, private val imgid: Array<Int>)
     : ArrayAdapter<String>(context, R.layout.custom_list, title) {
 
     override fun getView(position: Int, view: View?, parent: ViewGroup): View {
