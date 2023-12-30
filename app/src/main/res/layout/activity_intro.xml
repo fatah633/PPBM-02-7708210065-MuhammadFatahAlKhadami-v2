@@ -14,4 +14,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <com.ncorti.slidetoact.SlideToActView
+        android:id="@+id/btnSlide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:inner_color="@color/black"
+        app:outer_color="@color/white"
+        app:text="ENTER"
+        app:text_style="bold"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
