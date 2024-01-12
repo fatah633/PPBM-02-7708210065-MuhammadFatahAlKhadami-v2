@@ -23,7 +23,6 @@ class Intro : AppCompatActivity() {
         val _slider = findViewById<SlideToActView>(R.id.btnSlide)
         _slider.onSlideCompleteListener = object : SlideToActView.OnSlideCompleteListener {
             override fun onSlideComplete(view: SlideToActView) {
-//                Log.d("fatah", "slide1: " + view.text + ", id: " + view.id)
                 val _intent = Intent(this@Intro, Main::class.java)
                 startActivity(_intent)
             }
