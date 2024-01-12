@@ -23,7 +23,7 @@ class ListPop : AppCompatActivity() {
 
         val btnBack = findViewById<View>(R.id.back)
         btnBack.setOnClickListener {
-            val intent = Intent(this, Genre::class.java)
+            val intent = Intent(this, Main::class.java)
             startActivity(intent)
         }
 

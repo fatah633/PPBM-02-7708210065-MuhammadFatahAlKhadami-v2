@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
-import android.util.Log
 import com.ncorti.slidetoact.SlideToActView
 
 class Intro : AppCompatActivity() {
@@ -16,7 +15,7 @@ class Intro : AppCompatActivity() {
 
 //        handler = Handler()
 //        handler.postDelayed({
-//            val intent = Intent(this, Genre::class.java)
+//            val intent = Intent(this, Main::class.java)
 //            startActivity(intent)
 //            finish()
 //        }, 3000)
@@ -25,7 +24,7 @@ class Intro : AppCompatActivity() {
         _slider.onSlideCompleteListener = object : SlideToActView.OnSlideCompleteListener {
             override fun onSlideComplete(view: SlideToActView) {
 //                Log.d("fatah", "slide1: " + view.text + ", id: " + view.id)
-                val _intent = Intent(this@Intro, Genre::class.java)
+                val _intent = Intent(this@Intro, Main::class.java)
                 startActivity(_intent)
             }
         }

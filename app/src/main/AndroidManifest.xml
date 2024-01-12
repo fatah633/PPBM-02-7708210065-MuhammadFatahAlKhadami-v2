@@ -43,7 +43,7 @@
             android:name=".LyMaps"
             android:exported="false" />
         <activity
-            android:name=".Genre"
+            android:name=".Main"
             android:exported="false"/>
         <activity
             android:name=".ListPop"
